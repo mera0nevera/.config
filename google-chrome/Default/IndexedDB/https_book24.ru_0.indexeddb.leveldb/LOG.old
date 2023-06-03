@@ -1,0 +1,7 @@
+2023/01/24-17:56:34.514 13a6 Reusing MANIFEST /home/mera/.config/google-chrome/Default/IndexedDB/https_book24.ru_0.indexeddb.leveldb/MANIFEST-000001
+2023/01/24-17:56:34.514 13a6 Recovering log #3
+2023/01/24-17:56:34.515 13a6 Reusing old log /home/mera/.config/google-chrome/Default/IndexedDB/https_book24.ru_0.indexeddb.leveldb/000003.log 
+2023/01/24-17:56:49.307 13df Level-0 table #5: started
+2023/01/24-17:56:49.309 13df Level-0 table #5: 9608 bytes OK
+2023/01/24-17:56:49.311 13df Delete type=0 #3
+2023/01/24-17:56:49.311 13df Manual compaction at level-0 from (begin) .. (end); will stop at (end)

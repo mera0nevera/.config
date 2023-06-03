@@ -1,0 +1,6 @@
+2023/06/02-16:42:31.315 6e2a Reusing MANIFEST /home/mera/.config/google-chrome/Default/shared_proto_db/MANIFEST-000001
+2023/06/02-16:42:31.316 6e2a Recovering log #4
+2023/06/02-16:42:31.341 6e2a Reusing old log /home/mera/.config/google-chrome/Default/shared_proto_db/000004.log 
+2023/06/02-16:42:51.547 6e23 Level-0 table #8: started
+2023/06/02-16:42:51.549 6e23 Level-0 table #8: 121887 bytes OK
+2023/06/02-16:42:51.549 6e23 Delete type=0 #4

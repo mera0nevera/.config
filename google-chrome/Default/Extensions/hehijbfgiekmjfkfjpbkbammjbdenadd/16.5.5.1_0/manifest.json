@@ -1,0 +1,45 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "images/chromeba.png",
+      "default_title": "__MSG_extBrowserActionTooltip__"
+   },
+   "content_scripts": [ {
+      "js": [ "js/extapi_cs.js" ],
+      "matches": [ "*://*.ietab.net/*" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "js/ietabapi_cs.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com https://www.google-analytics.com; object-src 'self'",
+   "default_locale": "en_US",
+   "description": "__MSG_extDescription__",
+   "differential_fingerprint": "1.44ebea95c45a20299b0ffb495bb648746408ae9ab59df7863878ad8d4582035c",
+   "externally_connectable": {
+      "ids": [ "*" ],
+      "matches": [ "*://*.ietab.net/*" ]
+   },
+   "icons": {
+      "128": "images/chromeie128.png",
+      "16": "images/chromeie16.png",
+      "32": "images/chromeie32.png",
+      "48": "images/chromeie48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDw9KvWdSjLDeXyfQXxAIw9j36LlizdwLGfiF88eHBrsc9OQHJ6r7fl5uKPxjARbUBtMOyF1EGNeSrXYYt3QSGdqtNN2+Vtwe/zQ+I97QLz13z2R8wANA+2laNcLjSHx5GGgX+b2elzqWxYEyuAHTUG6d5Ugj04v/fiZ7ud99L5/QIDAQAB",
+   "manifest_version": 2,
+   "name": "IE Tab",
+   "optional_permissions": [ "downloads" ],
+   "options_page": "options.html",
+   "permissions": [ "tabs", "contextMenus", "webRequest", "webRequestBlocking", "nativeMessaging", "cookies", "\u003Call_urls>" ],
+   "short_name": "IE Tab",
+   "storage": {
+      "managed_schema": "managed_schema.json"
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "16.5.5.1",
+   "web_accessible_resources": [ "js/extapi_wp.js", "js/ietabapi_wp.js", "redir.htm" ]
+}

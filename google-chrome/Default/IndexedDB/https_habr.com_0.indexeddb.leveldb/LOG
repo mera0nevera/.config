@@ -1,0 +1,6 @@
+2023/03/24-19:05:14.375 2b09 Creating DB /home/mera/.config/google-chrome/Default/IndexedDB/https_habr.com_0.indexeddb.leveldb since it was missing.
+2023/03/24-19:05:14.377 2b09 Reusing MANIFEST /home/mera/.config/google-chrome/Default/IndexedDB/https_habr.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/03/24-19:14:31.425 2b09 Level-0 table #5: started
+2023/03/24-19:14:31.426 2b09 Level-0 table #5: 999 bytes OK
+2023/03/24-19:14:31.428 2b09 Delete type=0 #3
+2023/03/24-19:14:31.428 2b09 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,6 @@
+2023/06/02-16:42:31.115 6e45 Reusing MANIFEST /home/mera/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2023/06/02-16:42:31.117 6e45 Recovering log #476
+2023/06/02-16:42:31.118 6e45 Reusing old log /home/mera/.config/google-chrome/Default/Sync Data/LevelDB/000476.log 
+2023/06/02-16:54:23.697 6e2a Level-0 table #480: started
+2023/06/02-16:54:23.702 6e2a Level-0 table #480: 161096 bytes OK
+2023/06/02-16:54:23.704 6e2a Delete type=0 #476

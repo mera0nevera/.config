@@ -1,0 +1,6 @@
+2022/12/30-12:35:15.999 e3e7 Creating DB /home/mera/.config/google-chrome/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb since it was missing.
+2022/12/30-12:35:16.001 e3e7 Reusing MANIFEST /home/mera/.config/google-chrome/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/30-12:36:15.420 e3e7 Level-0 table #5: started
+2022/12/30-12:36:15.422 e3e7 Level-0 table #5: 1870 bytes OK
+2022/12/30-12:36:15.424 e3e7 Delete type=0 #3
+2022/12/30-12:36:15.424 e3e7 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

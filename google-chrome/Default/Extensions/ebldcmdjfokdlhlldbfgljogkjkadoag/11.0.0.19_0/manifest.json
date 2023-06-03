@@ -1,0 +1,28 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "16": "data/icons/16.png",
+         "32": "data/icons/32.png"
+      },
+      "default_popup": "data/panel/index.html"
+   },
+   "content_security_policy": "script-src 'self' https://www.google-analytics.com https://plausible.fvpvpnextension.com; object-src 'self'",
+   "default_locale": "en_US",
+   "description": "__MSG_appDesc__",
+   "differential_fingerprint": "1.38dc19e621678c41f7250925de0a669c325ddb11b76f2ee7f879619a68126c7a",
+   "icons": {
+      "128": "data/icons/128.png",
+      "16": "data/icons/16.png",
+      "48": "data/icons/48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2TklZzuKKCY8hoY4Jl942gwLyLVufsxbNl9wEGvw7gsMiu88MFKbT0LIIFmSBJuaefb0sC+vCyZ5B1tJ+AZWpdiMnVGm+FV9bn6SfnE8XQOpktfPGGNbZ3z9P9xeWjgjm/VRtSJG77zQcSNWbJy0UMsBLY5OzRicD7PooRKfH0WVHZjWJ6Ycol99L//jvoEVVntAqCW3RhzLk8vgm79AavmAPSYTxo54GgDiVYmF2tCKTrIcqKXRk/dpHfqgmfn1kqkm93ebedMkNgJl31a2CJLbKo+5SZfT+ghPgEYhXyIMXJntkw9X9yXfZygmZWkzDSRkoH6r7VZEJt7O7HhwSwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "permissions": [ "storage", "webRequest", "webRequestBlocking", "proxy", "\u003Call_urls>" ],
+   "short_name": "FreeVpn",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "11.00.00.19"
+}

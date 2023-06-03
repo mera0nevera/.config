@@ -1,0 +1,8 @@
+[15:56:43:935] [21043:21044] [WARN][com.freerdp.crypto] - Certificate verification failure 'self-signed certificate (18)' at stack position 0
+[15:56:43:935] [21043:21044] [WARN][com.freerdp.crypto] - CN = RDS-LOL
+[15:56:45:442] [21043:21044] [INFO][com.freerdp.gdi] - Local framebuffer format  PIXEL_FORMAT_BGRX32
+[15:56:45:442] [21043:21044] [INFO][com.freerdp.gdi] - Remote framebuffer format PIXEL_FORMAT_RGB16
+[15:56:45:629] [21043:21044] [INFO][com.freerdp.channels.rdpsnd.client] - [static] Loaded fake backend for rdpsnd
+[22:10:20:099] [21043:21044] [ERROR][com.freerdp.core.transport] - BIO_read returned a system error 110: Connection timed out
+[22:10:20:099] [21043:21044] [ERROR][com.freerdp.core] - transport_read_layer:freerdp_set_last_error_ex ERRCONNECT_CONNECT_TRANSPORT_FAILED [0x0002000D]
+[22:10:20:099] [21043:21044] [INFO][com.freerdp.client.common] - Network disconnect!

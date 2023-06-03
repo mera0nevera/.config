@@ -1,0 +1,22 @@
+{
+   "api_console_project_id": "999357435640",
+   "app": {
+      "launch": {
+         "container": "tab",
+         "web_url": "https://youfiles.herokuapp.com/ircclient/"
+      },
+      "urls": [ "https://youfiles.herokuapp.com/ircclient/" ]
+   },
+   "container": "GOOGLE_DRIVE",
+   "default_locale": "en_US",
+   "description": "__MSG_ext_description__",
+   "icons": {
+      "128": "icon128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwjViXx4UowA1cIacOQ5F5Sy0Ht7lxSayexwKQKS6m/PpZ0rIZ5mdG2bDab0ty2inQtnPmv9ww2iZVoGMu+YmE1awGaP8THAAwtFCFhvVk/V9h0k30peLKRM0Als/ukz2Xy+o381usosVG/xoWtsVUUg867Q0ExsCLryWvhp8dgQia46kmWRY2cj/4XmoWdE06NsRYVrtZGmrRYAGWzoe+J5Lbdlfpaubat+HHCx7RRvrV8hoSBuprursoo/idtzFhNnXB+4DiKWRyP7T5msCnnzbMMDfPIQm2iDiYiaugBaVLvR4RpSkrn4kh3sX2t7vxxtO/YWgXR9V9EFK3A+VewIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_ext_name__",
+   "permissions": [ "unlimitedStorage" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.0.2.1"
+}

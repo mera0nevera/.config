@@ -1,0 +1,22 @@
+[13:00:54:069] [61468:61469] [WARN][com.freerdp.crypto] - Certificate verification failure 'self-signed certificate (18)' at stack position 0
+[13:00:54:069] [61468:61469] [WARN][com.freerdp.crypto] - CN = CZ-DC-1.core64.com
+[13:00:54:069] [61468:61469] [ERROR][com.freerdp.crypto] - @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[13:00:54:069] [61468:61469] [ERROR][com.freerdp.crypto] - @           WARNING: CERTIFICATE NAME MISMATCH!           @
+[13:00:54:069] [61468:61469] [ERROR][com.freerdp.crypto] - @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[13:00:54:069] [61468:61469] [ERROR][com.freerdp.crypto] - The hostname used for this connection (172.16.222.168:3389) 
+[13:00:54:069] [61468:61469] [ERROR][com.freerdp.crypto] - does not match the name given in the certificate:
+[13:00:54:069] [61468:61469] [ERROR][com.freerdp.crypto] - Common Name (CN):
+[13:00:54:069] [61468:61469] [ERROR][com.freerdp.crypto] - 	CZ-DC-1.core64.com
+[13:00:54:069] [61468:61469] [ERROR][com.freerdp.crypto] - A valid certificate for the wrong name should NOT be trusted!
+Certificate details for 172.16.222.168:3389 (RDP-Server):
+	Common Name: CZ-DC-1.core64.com
+	Subject:     CN = CZ-DC-1.core64.com
+	Issuer:      CN = CZ-DC-1.core64.com
+	Thumbprint:  c7:2d:9b:97:1e:8c:c1:94:5a:a7:9e:e2:c0:18:40:a8:48:2f:36:3e:79:94:2b:ac:f3:1a:d1:65:01:90:90:04
+The above X.509 certificate could not be verified, possibly because you do not have
+the CA certificate in your certificate store, or the certificate has expired.
+Please look at the OpenSSL documentation on how to add a private CA to the store.
+Do you trust the above certificate? (Y/T/N) Y
+[13:00:56:742] [61468:61469] [INFO][com.freerdp.gdi] - Local framebuffer format  PIXEL_FORMAT_BGRX32
+[13:00:56:742] [61468:61469] [INFO][com.freerdp.gdi] - Remote framebuffer format PIXEL_FORMAT_RGB16
+[13:00:57:013] [61468:61469] [INFO][com.freerdp.channels.rdpsnd.client] - [static] Loaded fake backend for rdpsnd

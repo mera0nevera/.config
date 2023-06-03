@@ -1,0 +1,29 @@
+[18:00:13:825] [4438:4439] [WARN][com.freerdp.crypto] - Certificate verification failure 'self-signed certificate (18)' at stack position 0
+[18:00:13:825] [4438:4439] [WARN][com.freerdp.crypto] - CN = WIN-CGJVP12GQC7
+[18:00:21:447] [4438:4439] [INFO][com.freerdp.gdi] - Local framebuffer format  PIXEL_FORMAT_BGRX32
+[18:00:21:447] [4438:4439] [INFO][com.freerdp.gdi] - Remote framebuffer format PIXEL_FORMAT_RGB16
+[18:00:21:466] [4438:4439] [INFO][com.freerdp.channels.rdpsnd.client] - [static] Loaded fake backend for rdpsnd
+[18:00:21:466] [4438:4439] [INFO][com.freerdp.channels.drdynvc.client] - Loading Dynamic Virtual Channel disp
+^C[18:01:42:174] [4438:4438] [ERROR][com.freerdp.utils] - Caught signal 'Interrupt' [2]
+[18:01:42:175] [4438:4438] [ERROR][com.freerdp.utils] - 0: /lib/x86_64-linux-gnu/libwinpr2.so.2(winpr_backtrace+0x54) [0x7f1d2859d0c4]
+
+[18:01:42:175] [4438:4438] [ERROR][com.freerdp.utils] - 1: /lib/x86_64-linux-gnu/libwinpr2.so.2(winpr_log_backtrace_ex+0x33) [0x7f1d285a05d3]
+
+[18:01:42:175] [4438:4438] [ERROR][com.freerdp.utils] - 2: /lib/x86_64-linux-gnu/libfreerdp2.so.2(+0x2c824) [0x7f1d28760824]
+
+[18:01:42:175] [4438:4438] [ERROR][com.freerdp.utils] - 3: /lib/x86_64-linux-gnu/libc.so.6(+0x42520) [0x7f1d28367520]
+
+[18:01:42:175] [4438:4438] [ERROR][com.freerdp.utils] - 4: /lib/x86_64-linux-gnu/libc.so.6(__poll+0x4f) [0x7f1d2843dd7f]
+
+[18:01:42:175] [4438:4438] [ERROR][com.freerdp.utils] - 5: /lib/x86_64-linux-gnu/libwinpr2.so.2(+0x3d350) [0x7f1d2858a350]
+
+[18:01:42:175] [4438:4438] [ERROR][com.freerdp.utils] - 6: /lib/x86_64-linux-gnu/libwinpr2.so.2(WaitForSingleObjectEx+0x4eb) [0x7f1d2858abfb]
+
+[18:01:42:175] [4438:4438] [ERROR][com.freerdp.utils] - 7: xfreerdp(+0x864b) [0x55985e18764b]
+
+[18:01:42:175] [4438:4438] [ERROR][com.freerdp.utils] - 8: /lib/x86_64-linux-gnu/libc.so.6(+0x29d90) [0x7f1d2834ed90]
+
+[18:01:42:175] [4438:4438] [ERROR][com.freerdp.utils] - 9: /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80) [0x7f1d2834ee40]
+
+[18:01:42:175] [4438:4438] [ERROR][com.freerdp.utils] - 10: xfreerdp(_start+0x25) [0x55985e1876f5]
+

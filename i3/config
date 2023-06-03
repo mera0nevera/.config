@@ -1,0 +1,225 @@
+#    (      ))\  )(   ( /( 
+#    )\  ' /((_)(()\  )(_))
+#  _((_)) (_))   ((_)((_)_ 
+# | '  \()/ -_) | '_|/ _` |
+# |_|_|_| \___| |_|  \__,_|
+
+
+#	STARTUP	     #
+#	STARTUP      #
+#	STARTUP      #
+
+# sound
+#exec --no-startup-id /usr/bin/pulseaudio --start --log-target=syslog
+
+# keyboard layout
+#exec --no-startup-id setxkbmap us,ru -option 'grp:alt_shift_toggle'
+exec_always --no-startup-id setxkbmap -layout us,ru -option 'grp:alt_shift_toggle'
+
+# network-manager 
+exec --no-startup-id nm-applet
+
+# alacritty
+#exec_always --no-startup-id i3-msg 'workspace $workspace1; exec alacritty'
+
+# chrome
+#exec_always --no-startup-id i3-msg 'workspace $workspace2; exec google-chrome'
+
+
+#	OPTION	     #
+#	OPTION	     #
+#	OPTION	     #
+
+# modkey
+set $ctrl Control
+set $alt Mod1
+set $win Mod4
+
+# name the workspaces
+set $workspace1  1:🌑
+set $workspace2  2:🌒
+set $workspace3  3:🌓
+set $workspace4  4:🌔
+set $workspace5  5:🌕️
+set $workspace6  6:🌖
+set $workspace7  7:🌗
+set $workspace8  8:🌘
+
+# control volume
+set $refresh_i3status killall -SIGUSR1 i3status
+
+# new window
+default_border pixel 1
+default_floating_border none
+
+# use Mouse+$alt to drag a floating window
+floating_modifier $alt
+
+
+#	MODE       #
+#	MODE       #
+#       MODE       #
+
+mode "resize" {
+    # These bindings trigger as soon as you enter the resize mode
+    bindsym j resize shrink width 10 px or 10 ppt
+    bindsym k resize shrink height 10 px or 10 ppt
+    bindsym l resize grow height 10 px or 10 ppt
+    bindsym semicolon resize grow width 10 px or 10 ppt
+
+    bindsym Shift+j resize shrink width 1 px or 1 ppt
+    bindsym Shift+k resize shrink height 1 px or 1 ppt
+    bindsym Shift+l resize grow height 1 px or 1 ppt
+    bindsym Shift+semicolon resize grow width 1 px or 1 ppt
+
+    # back to normal: Enter or Escape
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+
+
+#	BIND	   # 
+#	BIND	   #
+#	BIND       #
+
+# reload the configuration file
+bindsym $ctrl+Shift+s reload
+
+# restart i3 inplace 
+bindsym $ctrl+Shift+r restart
+
+# exit i3 (logs you out of your X session)
+bindsym $ctrl+Shift+e exit
+
+# start a terminal
+#bindsym $alt+Return exec alacritty
+bindsym $alt+Return exec i3-sensible-terminal
+
+# dmenu (a program launcher)
+bindsym $alt+r exec --no-startup-id i3-dmenu-desktop 
+
+# kill focused window
+bindsym $alt+q kill
+
+# resize windows
+bindsym $ctrl+r mode "resize"
+
+# focus the parent container
+bindsym $ctrl+a focus parent
+
+# focus the child container
+#bindsym $crtl+d focus child
+
+# change focus between tiling / floating windows
+bindsym $alt+space focus mode_toggle
+
+# fullscreen mode for the focused container
+bindsym $alt+f fullscreen toggle
+
+# toggle tiling / floating
+bindsym $ctrl+Shift+space floating toggle
+
+# horizontal orientation
+bindsym $alt+h split h
+
+# vertical orientation
+bindsym $alt+v split v
+
+# Change container layout (stacked, tabbed, toggle split)
+bindsym $alt+s layout stacking
+bindsym $alt+t layout tabbed
+#bindsym $alt+e layout toggle split
+
+# move focuse between windows
+bindsym $alt+j focus left
+bindsym $alt+k focus up
+bindsym $alt+l focus down
+bindsym $alt+semicolon focus right
+
+# move focused window
+bindsym $ctrl+Shift+j move left
+bindsym $ctrl+Shift+k move up
+bindsym $ctrl+Shift+l move down
+bindsym $ctrl+Shift+semicolon move right
+
+# move focused workspace between monitors
+bindsym $win+Shift+semicolon move workspace to output right
+bindsym $win+Shift+j move workspace to output left
+
+# switch to workspace
+bindsym $alt+1 workspace $workspace1
+bindsym $alt+2 workspace $workspace2
+bindsym $alt+3 workspace $workspace3
+bindsym $alt+4 workspace $workspace4
+bindsym $alt+5 workspace $workspace5
+bindsym $alt+6 workspace $workspace6
+bindsym $alt+7 workspace $workspace7
+bindsym $alt+8 workspace $workspace8
+
+# switch to near workspace
+bindsym $ctrl+semicolon workspace next
+bindsym $ctrl+j workspace prev
+
+# switch between the current and the previously focused one
+bindsym $alt+Tab workspace back_and_forth
+#bindsym $crtl+Tab workspace next
+
+# move focused container to workspace
+bindsym $ctrl+Shift+1 move container to workspace $workspace1
+bindsym $ctrl+Shift+2 move container to workspace $workspace2
+bindsym $ctrl+Shift+3 move container to workspace $workspace3
+bindsym $ctrl+Shift+4 move container to workspace $workspace4
+bindsym $ctrl+Shift+5 move container to workspace $workspace5
+bindsym $ctrl+Shift+6 move container to workspace $workspace6
+bindsym $ctrl+Shift+7 move container to workspace $workspace7
+bindsym $ctrl+Shift+8 move container to workspace $workspace8
+
+# lock screen
+bindsym $win+l exec --no-startup-id ~/.config/i3/scripts/lockscreen
+
+# use brillo for adjust brightneess
+bindsym XF86MonBrightnessDown exec --no-startup-id brillo -U 5 -q
+bindsym XF86MonBrightnessUp exec --no-startup-id brillo -A 5 -q
+
+# use pactl to adjust volume in PulseAudio.
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% && $refresh_i3status
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
+bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
+
+
+#	ASSIGN       #
+#	ASSIGN       #
+#	ASSIGN       #
+
+# always open some programs on specified workspace
+#assign [class="Alacritty"]     $workspace1
+#assign [title="^.*WinBox.*&"]   $workspace7
+#assign [class="Asbru-cm"]       $workspace8
+
+
+#	BAR      #
+#	BAR      #
+#	BAR      #
+
+bar {
+    font pango: SauceCodePro Nerd Font 9
+    i3bar_command i3bar
+    output primary
+    position bottom
+    status_command i3status --config ~/.config/i3status/i3status.conf
+    strip_workspace_numbers yes
+    tray_output nonprimary
+
+    colors {
+    background #282A36
+	statusline #F8F8F2
+	separator  #44475A
+
+	focused_workspace  #44475A #44475A #F8F8F2
+	active_workspace   #282A36 #44475A #F8F8F2
+	inactive_workspace #282A36 #282A36 #BFBFBF
+	urgent_workspace   #FF5555 #FF5555 #F8F8F2
+	binding_mode       #FF5555 #FF5555 #F8F8F2	
+    }
+}

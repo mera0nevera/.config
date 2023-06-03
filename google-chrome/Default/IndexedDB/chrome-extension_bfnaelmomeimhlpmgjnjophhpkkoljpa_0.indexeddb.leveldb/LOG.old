@@ -1,0 +1,13 @@
+2023/06/01-19:33:01.961 7f7 Reusing MANIFEST /home/mera/.config/google-chrome/Default/IndexedDB/chrome-extension_bfnaelmomeimhlpmgjnjophhpkkoljpa_0.indexeddb.leveldb/MANIFEST-000001
+2023/06/01-19:33:01.961 7f7 Recovering log #10
+2023/06/01-19:33:01.961 7f7 Reusing old log /home/mera/.config/google-chrome/Default/IndexedDB/chrome-extension_bfnaelmomeimhlpmgjnjophhpkkoljpa_0.indexeddb.leveldb/000010.log 
+2023/06/01-19:33:02.110 7f7 Level-0 table #14: started
+2023/06/01-19:33:02.111 7f7 Level-0 table #14: 1107 bytes OK
+2023/06/01-19:33:02.112 7f7 Delete type=0 #10
+2023/06/01-19:33:02.112 7ee Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at '\x00\x03\x00\x00\xc8\x06\x00v\x00a\x00l\x00u\x00e\x00s' @ 170 : 1
+2023/06/01-19:33:02.112 7ee Compacting 1@0 + 1@1 files
+2023/06/01-19:33:02.112 7ee Generated table #15@0: 4 keys, 259 bytes
+2023/06/01-19:33:02.112 7ee Compacted 1@0 + 1@1 files => 259 bytes
+2023/06/01-19:33:02.113 7ee compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/06/01-19:33:02.113 7ee Delete type=2 #14
+2023/06/01-19:33:02.113 7ee Manual compaction at level-0 from '\x00\x03\x00\x00\xc8\x06\x00v\x00a\x00l\x00u\x00e\x00s' @ 170 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -1,0 +1,18 @@
+2023/03/24-14:56:30.422 2b09 Creating DB /home/mera/.config/google-chrome/Default/IndexedDB/https_www.banggood.com_0.indexeddb.leveldb since it was missing.
+2023/03/24-14:56:30.424 2b09 Reusing MANIFEST /home/mera/.config/google-chrome/Default/IndexedDB/https_www.banggood.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/03/24-14:56:34.746 2b13 Level-0 table #5: started
+2023/03/24-14:56:34.747 2b13 Level-0 table #5: 543 bytes OK
+2023/03/24-14:56:34.748 2b13 Delete type=0 #3
+2023/03/24-14:56:34.748 2b09 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/03/24-14:57:29.307 2b0a Level-0 table #7: started
+2023/03/24-14:57:29.310 2b0a Level-0 table #7: 30834 bytes OK
+2023/03/24-14:57:29.311 2b0a Delete type=0 #4
+2023/03/24-14:57:29.312 2b0a Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/03/24-14:57:29.312 2b0a Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x01 \x03\x00\x80\xbe\xf6AqxB\x00\x01\x7f\x00b\x00g\x00:\x00i\x00m\x00g\x00-\x00v\x001\x00.\x002\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00i\x00m\x00g\x00a\x00z\x003\x00.\x00s\x00t\x00a\x00t\x00i\x00c\x00b\x00g\x00.\x00c\x00o\x00m\x00/\x00t\x00h\x00u\x00m\x00b\x00/\x00g\x00r\x00i\x00d\x00/\x00o\x00a\x00u\x00p\x00l\x00o\x00a\x00d\x00/\x00b\x00a\x00n\x00g\x00g\x00o\x00o\x00d\x00/\x00i\x00m\x00a\x00g\x00e\x00s\x00/\x005\x004\x00/\x003\x008\x00/\x007\x002\x00e\x00d\x000\x001\x008\x004\x00-\x003\x008\x003\x000\x00-\x004\x00b\x00d\x00a\x00-\x008\x00c\x003\x00f\x00-\x006\x00c\x00e\x003\x009\x005\x00c\x00e\x00b\x007\x00b\x007\x00.\x00j\x00p\x00g\x00.\x00w\x00e\x00b\x00p' @ 746 : 1
+2023/03/24-14:57:29.312 2b0a Compacting 1@1 + 1@2 files
+2023/03/24-14:57:29.313 2b0a Generated table #8@1: 182 keys, 18235 bytes
+2023/03/24-14:57:29.313 2b0a Compacted 1@1 + 1@2 files => 18235 bytes
+2023/03/24-14:57:29.314 2b0a compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/03/24-14:57:29.314 2b0a Delete type=2 #5
+2023/03/24-14:57:29.314 2b0a Delete type=2 #7
+2023/03/24-14:57:29.314 2b0a Manual compaction at level-1 from '\x00\x03\x01 \x03\x00\x80\xbe\xf6AqxB\x00\x01\x7f\x00b\x00g\x00:\x00i\x00m\x00g\x00-\x00v\x001\x00.\x002\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00i\x00m\x00g\x00a\x00z\x003\x00.\x00s\x00t\x00a\x00t\x00i\x00c\x00b\x00g\x00.\x00c\x00o\x00m\x00/\x00t\x00h\x00u\x00m\x00b\x00/\x00g\x00r\x00i\x00d\x00/\x00o\x00a\x00u\x00p\x00l\x00o\x00a\x00d\x00/\x00b\x00a\x00n\x00g\x00g\x00o\x00o\x00d\x00/\x00i\x00m\x00a\x00g\x00e\x00s\x00/\x005\x004\x00/\x003\x008\x00/\x007\x002\x00e\x00d\x000\x001\x008\x004\x00-\x003\x008\x003\x000\x00-\x004\x00b\x00d\x00a\x00-\x008\x00c\x003\x00f\x00-\x006\x00c\x00e\x003\x009\x005\x00c\x00e\x00b\x007\x00b\x007\x00.\x00j\x00p\x00g\x00.\x00w\x00e\x00b\x00p' @ 746 : 1 .. (end); will stop at (end)

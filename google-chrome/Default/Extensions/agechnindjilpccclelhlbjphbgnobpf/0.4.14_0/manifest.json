@@ -1,0 +1,54 @@
+{
+   "author": "https://www.trustfractal.com",
+   "background": {
+      "scripts": [ "background.bundle.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "img/icon_128.png",
+         "16": "img/icon_16.png",
+         "19": "img/icon_19.png",
+         "32": "img/icon_32.png",
+         "38": "img/icon_38.png",
+         "512": "img/icon_512.png",
+         "64": "img/icon_64.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "Fractal Wallet"
+   },
+   "commands": {
+      "_execute_browser_action": {
+         "suggested_key": {
+            "chromeos": "Alt+Shift+F",
+            "linux": "Alt+Shift+F",
+            "mac": "Alt+Shift+F",
+            "windows": "Alt+Shift+F"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "js": [ "contentScript.bundle.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "script-src 'self' 'wasm-eval'; object-src 'self'",
+   "description": "The Fractal Wallet is a browser extension that allows users to store their validated decentralized identity (DID) credentials.",
+   "icons": {
+      "128": "img/icon_128.png",
+      "16": "img/icon_16.png",
+      "19": "img/icon_19.png",
+      "32": "img/icon_32.png",
+      "38": "img/icon_38.png",
+      "512": "img/icon_512.png",
+      "64": "img/icon_64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1BRIy1i5nu5uiMnvDoIskZFqTx+z6MxNbg7nmHdZybo6ZKoUMmszInKPEjMaep35gikZzDYNAzhvvQxCUYSKnpLlEm/gBAtDwuDu/vbAUOVwnJNVY1skjnH3v68IJ07eirGuDWmS+ARpDyypgEjwgEK4RyaU051Vf5+Za1rndow4al3orcYaDz9N6APWBRJ603JwFD9xEcGzM/IvMifHetj5yLoxhCFkloHLJJrezMFBG4662ujpo7ZbvBSiG3tP+ONQ/Ygyen8JvqAPK0ax5QsLmNbJORbSiUuhNmwYdl082oEJR6kyWs3PeOBMkbvEk4rV/BNwOFq8HHqimMSmJQIDAQAB",
+   "manifest_version": 2,
+   "name": "Fractal Wallet",
+   "permissions": [ "tabs", "storage", "unlimitedStorage" ],
+   "short_name": "Fractal Wallet",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.4.14",
+   "web_accessible_resources": [ "sdk.bundle.js" ]
+}

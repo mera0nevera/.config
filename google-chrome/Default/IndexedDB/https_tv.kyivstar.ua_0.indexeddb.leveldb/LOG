@@ -1,0 +1,17 @@
+2023/01/24-14:18:39.891 c72b Reusing MANIFEST /home/mera/.config/google-chrome/Default/IndexedDB/https_tv.kyivstar.ua_0.indexeddb.leveldb/MANIFEST-000001
+2023/01/24-14:18:39.891 c72b Recovering log #8
+2023/01/24-14:18:39.891 c72b Reusing old log /home/mera/.config/google-chrome/Default/IndexedDB/https_tv.kyivstar.ua_0.indexeddb.leveldb/000008.log 
+2023/01/24-14:18:40.218 c55c Level-0 table #14: started
+2023/01/24-14:18:40.218 c55c Level-0 table #14: 753 bytes OK
+2023/01/24-14:18:40.219 c55c Delete type=0 #8
+2023/01/24-14:18:40.219 c55c Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/01/24-14:18:40.395 c51f Level-0 table #16: started
+2023/01/24-14:18:40.396 c51f Level-0 table #16: 751 bytes OK
+2023/01/24-14:18:40.397 c51f Delete type=0 #13
+2023/01/24-14:18:40.397 c51f Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at '\x00\x06\x00\x00\x05' @ 184 : 1
+2023/01/24-14:18:40.397 c51f Compacting 1@0 + 1@1 files
+2023/01/24-14:18:40.398 c51f Generated table #17@0: 18 keys, 585 bytes
+2023/01/24-14:18:40.398 c51f Compacted 1@0 + 1@1 files => 585 bytes
+2023/01/24-14:18:40.399 c51f compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/01/24-14:18:40.399 c51f Delete type=2 #16
+2023/01/24-14:18:40.399 c51f Manual compaction at level-0 from '\x00\x06\x00\x00\x05' @ 184 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -1,0 +1,6 @@
+2023/03/18-16:17:31.001 4408 Creating DB /home/mera/.config/google-chrome/Default/IndexedDB/https_qa.yodo.im_0.indexeddb.leveldb since it was missing.
+2023/03/18-16:17:31.005 4408 Reusing MANIFEST /home/mera/.config/google-chrome/Default/IndexedDB/https_qa.yodo.im_0.indexeddb.leveldb/MANIFEST-000001
+2023/03/18-16:18:11.206 4409 Level-0 table #5: started
+2023/03/18-16:18:11.210 4409 Level-0 table #5: 67546 bytes OK
+2023/03/18-16:18:11.212 4409 Delete type=0 #3
+2023/03/18-16:18:11.212 4409 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

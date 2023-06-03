@@ -1,0 +1,6 @@
+2023/02/11-21:50:15.896 9650 Creating DB /home/mera/.config/google-chrome/Default/IndexedDB/https_www.xvideos.com_0.indexeddb.leveldb since it was missing.
+2023/02/11-21:50:15.898 9650 Reusing MANIFEST /home/mera/.config/google-chrome/Default/IndexedDB/https_www.xvideos.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/02/11-21:50:25.055 9650 Level-0 table #5: started
+2023/02/11-21:50:25.056 9650 Level-0 table #5: 4185 bytes OK
+2023/02/11-21:50:25.057 9650 Delete type=0 #3
+2023/02/11-21:50:25.058 9650 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

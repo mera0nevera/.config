@@ -1,0 +1,8 @@
+[13:13:16:835] [2682:2683] [WARN][com.freerdp.crypto] - Certificate verification failure 'self-signed certificate (18)' at stack position 0
+[13:13:16:835] [2682:2683] [WARN][com.freerdp.crypto] - CN = CZ-DC-1.core64.com
+[13:13:17:043] [2682:2683] [INFO][com.freerdp.gdi] - Local framebuffer format  PIXEL_FORMAT_BGRX32
+[13:13:17:043] [2682:2683] [INFO][com.freerdp.gdi] - Remote framebuffer format PIXEL_FORMAT_RGB16
+[13:13:18:310] [2682:2683] [INFO][com.freerdp.channels.rdpsnd.client] - [static] Loaded fake backend for rdpsnd
+[13:15:15:526] [2682:2683] [ERROR][com.freerdp.core.transport] - BIO_read returned a system error 110: Connection timed out
+[13:15:15:526] [2682:2683] [ERROR][com.freerdp.core] - transport_read_layer:freerdp_set_last_error_ex ERRCONNECT_CONNECT_TRANSPORT_FAILED [0x0002000D]
+[13:15:15:526] [2682:2683] [INFO][com.freerdp.client.common] - Network disconnect!

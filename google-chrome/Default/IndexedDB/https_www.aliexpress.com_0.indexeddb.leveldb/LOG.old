@@ -1,0 +1,6 @@
+2023/03/18-11:10:16.458 179e Creating DB /home/mera/.config/google-chrome/Default/IndexedDB/https_www.aliexpress.com_0.indexeddb.leveldb since it was missing.
+2023/03/18-11:10:16.463 179e Reusing MANIFEST /home/mera/.config/google-chrome/Default/IndexedDB/https_www.aliexpress.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/03/18-11:11:31.106 179e Level-0 table #5: started
+2023/03/18-11:11:31.107 179e Level-0 table #5: 842 bytes OK
+2023/03/18-11:11:31.108 179e Delete type=0 #3
+2023/03/18-11:11:31.108 179e Manual compaction at level-0 from (begin) .. (end); will stop at (end)

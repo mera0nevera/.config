@@ -1,0 +1,7 @@
+2023/01/03-18:37:04.977 1b2f Reusing MANIFEST /home/mera/.config/google-chrome/Default/IndexedDB/https_www.opensubtitles.org_0.indexeddb.leveldb/MANIFEST-000001
+2023/01/03-18:37:04.977 1b2f Recovering log #3
+2023/01/03-18:37:04.977 1b2f Reusing old log /home/mera/.config/google-chrome/Default/IndexedDB/https_www.opensubtitles.org_0.indexeddb.leveldb/000003.log 
+2023/01/03-18:37:07.398 1be0 Level-0 table #5: started
+2023/01/03-18:37:07.399 1be0 Level-0 table #5: 851 bytes OK
+2023/01/03-18:37:07.399 1be0 Delete type=0 #3
+2023/01/03-18:37:07.400 1be0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
